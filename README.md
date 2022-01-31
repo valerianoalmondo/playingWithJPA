@@ -28,7 +28,8 @@ SQL
 
 - Creating another diagram
 
-![](img/section overview.png)
+![image](https://user-images.githubusercontent.com/70283310/151865488-ccd82517-089e-4a05-9e57-886f0153a9bf.png)
+
 
 ### Creating student class
 
