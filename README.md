@@ -42,3 +42,6 @@ SQL
 
 - Create a sequence with our specified id
 
+### @Column
+
+- Adding add column annotation. Specifying our columns names
