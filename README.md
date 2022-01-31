@@ -54,3 +54,12 @@ SQL
 ### @Table and Constraints
 
 - Rename the unique student email key
+
+### Repositories
+
+![](img/Repositories..png)
+
+### @JPA Repositoriy
+
+- Put new student to our database using JPA
+
