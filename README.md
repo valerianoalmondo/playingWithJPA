@@ -27,3 +27,13 @@ SQL
 ### Section overview
 
 - Creating another diagram
+
+![](img/section overview.png)
+
+### Creating student class
+
+- Creating student class with properties
+
+### @Entity
+
+- Tell that class that we create, we want to be a table and also to atributes to be a column in our table 
