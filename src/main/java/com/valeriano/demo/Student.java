@@ -3,6 +3,12 @@ package com.valeriano.demo;
 import javax.persistence.*;
 
 @Entity(name = "Student")
+@Table(
+        name = "student",
+        uniqueConstraints = {
+                @UniqueConstraint(name = "student_email_unique", columnNames = "email")
+        }
+)
 public class Student {
 
     @Id
@@ -18,6 +24,7 @@ public class Student {
     @Column(
             name = "id",
             updatable = false
+
     )
     private Long id;
     @Column(
@@ -35,12 +42,11 @@ public class Student {
     @Column(
             name = "email",
             nullable = false,
-            columnDefinition = "TEXT",
-            unique = true
+            columnDefinition = "TEXT"
     )
     private String email;
     @Column(
-            name = "age ",
+            name = "age",
             nullable = false
     )
     private int age;
@@ -51,6 +57,10 @@ public class Student {
         this.last_name = last_name;
         this.email = email;
         this.age = age;
+    }
+
+    public Student() {
+
     }
 
     public Long getId() {

@@ -46,3 +46,11 @@ SQL
 ### @Column
 
 - Adding add column annotation. Specifying our columns names
+
+### @IntelliJ Data Source
+
+- Solivng errors (assigning datasource, creating empty constructor)
+
+### @Table and Constraints
+
+- Rename the unique student email key
