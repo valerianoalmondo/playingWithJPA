@@ -36,4 +36,9 @@ SQL
 
 ### @Entity
 
-- Tell that class that we create, we want to be a table and also to atributes to be a column in our table 
+- Tell that class that we created, to be a table and also to attributes to be a column in our table
+
+### @Sequence
+
+- Create a sequence with our specified id
+

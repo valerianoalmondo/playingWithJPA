@@ -1,12 +1,20 @@
 package com.valeriano.demo;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity(name = "Student")
 public class Student {
 
     @Id
+    @SequenceGenerator(
+            name = "student",
+            sequenceName = "student",
+            allocationSize = 1
+    )
+    @GeneratedValue(
+            strategy = GenerationType.SEQUENCE,
+            generator = "student_sequence"
+    )
     private Long id;
     private String first_name;
     private String last_name;
